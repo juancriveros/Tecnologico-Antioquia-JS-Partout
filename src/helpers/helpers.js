@@ -192,7 +192,7 @@ hbs.registerHelper('ListarInscritos', (cursos, usuarios, inscritos) => {
 			<label for="Id">${estudiante[0].telefono}</label>
 			</div>
 			<div class="col">
-			<label for="Id">${estudiante[0].email}</label>
+			<label for="Id">${estudiante[0].correo}</label>
 			</div>
 			<div class="col">
 			<button type="submit" class="btn btn-primary">Eliminar</button>
@@ -253,7 +253,7 @@ hbs.registerHelper('ListarUsuarios', (id) => {
 		<label for="Id">${user.telefono}</label>
 		</div>
 		<div class="col">
-		<label for="Id">${user.email}</label>
+		<label for="Id">${user.correo}</label>
 		</div>
 		<div class="col">
 		<button type="submit" class="btn btn-primary">Actualizar</button>
@@ -293,7 +293,7 @@ hbs.registerHelper('ActualizadoUsuario', (id, nombre, telefono, email, rol) => {
 			id: id,
 			nombre: nombre,
 			telefono: telefono,
-			email: email,
+			email: correo,
 			rol: rol
 		};
 		adminEstudiantes.actualizar(estudiante);
