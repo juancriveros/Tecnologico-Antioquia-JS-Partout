@@ -1,0 +1,25 @@
+{
+  "name": "tercera-entrega",
+  "version": "1.0.0",
+  "description": "terceraentrega",
+  "main": "src/app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "hbs": "^4.0.4",
+    "jquery": "^3.4.1",
+    "memorystore": "^1.6.1",
+    "mongoose": "^5.6.2",
+    "mongoose-unique-validator": "^2.0.3",
+    "node-localstorage": "^1.3.1",
+    "popper.js": "^1.15.0"
+  }
+}
